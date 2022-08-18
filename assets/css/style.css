@@ -145,6 +145,10 @@ body.dark-theme {
 .dark-theme::-webkit-scrollbar {
     background: hsl(0, 0%, 30%);
 }
+
+.dark-theme .new-tag{
+    color: black;
+}
    
 /*-----Reusable classes-----*/
 .container{
@@ -1183,7 +1187,7 @@ body.dark-theme {
     .story-container{
         column-gap: 13rem;
     }
-    
+
     .testimonial__container {
         grid-template-columns: repeat(2, 10fr);
     }
