@@ -1138,7 +1138,10 @@ body.dark-theme {
       padding-top: 2rem;
     }
     
-    .story-container,
+    .story-container{
+        column-gap: 8rem;
+    }
+
     .testimonial__container {
         grid-template-columns: repeat(2, 2fr);    
     }
@@ -1147,7 +1150,7 @@ body.dark-theme {
     .story-img,
     .testimonial__square,
     .testimonial__img {
-      width: 425px;
+      width: 450px;
     }
   
     .story-square,
@@ -1177,7 +1180,10 @@ body.dark-theme {
       margin-right: auto;
     }
     
-    .story-container,
+    .story-container{
+        column-gap: 13rem;
+    }
+    
     .testimonial__container {
         grid-template-columns: repeat(2, 10fr);
     }
